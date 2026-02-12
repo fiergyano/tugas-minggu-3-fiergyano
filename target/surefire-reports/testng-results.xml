@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-12T22:34:17 WIB" name="eCommerce Test Suite" finished-at="2026-02-12T22:34:20 WIB" duration-ms="2689">
+    <groups>
+    </groups>
+    <test started-at="2026-02-12T22:34:17 WIB" name="Test E2E Web" finished-at="2026-02-12T22:34:20 WIB" duration-ms="2689">
+      <class name="com.juaracoding.run.InventoryTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.juaracoding.run.InventoryTest@4567f35d]" started-at="2026-02-12T22:34:17 WIB" name="setup" finished-at="2026-02-12T22:34:19 WIB" duration-ms="2267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAddToCart()[pri:0, instance:com.juaracoding.run.InventoryTest@4567f35d]" started-at="2026-02-12T22:34:19 WIB" name="verifyAddToCart" finished-at="2026-02-12T22:34:19 WIB" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.juaracoding.run.InventoryTest@4567f35d]" started-at="2026-02-12T22:34:19 WIB" name="teardown" finished-at="2026-02-12T22:34:20 WIB" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.juaracoding.run.InventoryTest -->
+    </test> <!-- Test E2E Web -->
+  </suite> <!-- eCommerce Test Suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="eCommerce Test Suite">
+    <test name="Test E2E Web">
+        <parameter name="emptyUsername" value=""></parameter>
+        <parameter name="emptyPassword" value=""></parameter>
+        <parameter name="username" value="standard_user"></parameter>
+        <parameter name="password" value="secret_sauce"></parameter>
+        <parameter name="invalidPassword" value="salah123"></parameter>
+        <parameter name="invalidUsername" value="salah_user"></parameter>
+        <classes>
+            <class name="com.juaracoding.run.InventoryTest" />
+        </classes>
+    </test>
+</suite>
